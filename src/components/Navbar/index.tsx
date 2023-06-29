@@ -42,8 +42,8 @@ export const Navbar: React.FC = () => {
             <ul className="flex gap-x-14 mr-20">
               <Navlink to="#destination">Desitnations</Navlink>
               <Navlink to="#">Hotels</Navlink>
-              <Navlink to="#">Flights</Navlink>
-              <Navlink to="#">Bookings</Navlink>
+              <Navlink to="#category">Flights</Navlink>
+              <Navlink to="#booking">Bookings</Navlink>
             </ul>
           </div>
           <div className="flex items-center gap-x-10 max-xl:hidden">

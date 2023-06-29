@@ -21,7 +21,7 @@ export const RightCard: React.FC<Props> = ({
   person,
 }) => {
   return (
-    <div className="bg-white w-[385px] h-[430px] py-5 px-6 rounded-[26px] hover:cursor-pointer group relative max-xl:h-[480px] max-lg:w-full max-lg:h-full">
+    <div className="bg-white w-[385px] h-[430px] py-5 px-6 rounded-[26px] hover:cursor-pointer group relative max-xl:h-[480px] max-lg:w-full max-lg:h-full shadow-[10px_-10px_120px_10px_rgba(89,177,230,0.56)] max-sm:shadow-none">
       <img
         src={pathBooking}
         alt="travel landing page booking image trip"

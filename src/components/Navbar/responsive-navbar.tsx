@@ -33,9 +33,9 @@ export const ResponsiveNavbar: React.FC<TResponsiveNavbarProps> = ({
           <div className="lg:hidden">
             <ul className="flex flex-col gap-y-8">
               <Navlink to="#destination">Desitnations</Navlink>
-              <Navlink to="#">Hotels</Navlink>
+              <Navlink to="#category">Hotels</Navlink>
               <Navlink to="#">Flights</Navlink>
-              <Navlink to="#">Bookings</Navlink>
+              <Navlink to="#booking">Bookings</Navlink>
             </ul>
           </div>
           <div className="flex justify-between items-center flex-1 xl:hidden sm:justify-between lg:flex-col lg:gap-y-8 lg:justify-start">
