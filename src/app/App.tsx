@@ -7,7 +7,7 @@ import { Footer } from '../components/Footer';
 import { Hero } from '../components/Hero';
 import { Navbar } from '../components/Navbar';
 import { Subscribe } from '../components/Subscribe';
-import { Support } from '../components/Support';
+import { Partner } from '../components/Partner';
 import { Testimonial } from '../components/Testimoni';
 
 // extrenal css
@@ -27,7 +27,7 @@ function App() {
         <Booking />
         <Container>
           <Testimonial />
-          <Support />
+          <Partner />
           <Subscribe />
         </Container>
       </main>

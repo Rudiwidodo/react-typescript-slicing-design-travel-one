@@ -9,7 +9,7 @@ export const Video: React.FC<Props> = ({ onclick, closeIocn }) => {
   return (
     <>
       <div className="fixed z-20 top-0 left-0 bottom-0 w-full bg-white flex justify-center items-center">
-        <div className="w-4/5 p-8 shadow-xl shadow-slate-300 rounded-md relative max-md:w-full">
+        <div className="w-[90%] p-8 shadow-xl shadow-slate-300 rounded-md relative max-md:w-full">
           <div className="w-9 h-9 rounded-full shadow-lg shadow-slate-300 absolute top-0 right-0">
             <button
               type="button"

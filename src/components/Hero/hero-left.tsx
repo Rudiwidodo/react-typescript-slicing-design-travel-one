@@ -25,11 +25,11 @@ export const HeroLeft: React.FC<Props> = ({ path, onclik }) => {
         <div className="mt-8 flex gap-10 max-sm:flex-col-reverse max-sm:mt-3">
           <button
             type="button"
-            className="w-[170px] h-[60px] rounded-xl bg-color-3 text-white text-[17px] max-sm:w-full"
+            className="w-[170px] h-[60px] rounded-xl bg-color-3 text-white text-[17px] max-sm:w-full transition duration-500 ease-out hover:-translate-y-2"
           >
             Find out more
           </button>
-          <div className="flex items-center gap-5 max-sm:mt-3">
+          <div className="flex items-center gap-5 max-sm:mt-3 transition duration-500 ease-out hover:translate-x-2">
             <button
               type="button"
               className="h-[60px] w-[60px] rounded-full bg-color-1 flex justify-center items-center"

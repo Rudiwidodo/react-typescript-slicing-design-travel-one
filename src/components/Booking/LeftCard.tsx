@@ -18,7 +18,10 @@ export const LeftCard: React.FC = () => {
     <>
       {BookingData.map((items) => {
         return (
-          <div className={`flex items-center gap-x-6`} key={items.id}>
+          <div
+            className={`flex items-center gap-x-6 transition duration-500 ease-out hover:translate-x-2 hover:shadow-lg hover:shadow-gray-300`}
+            key={items.id}
+          >
             <img src={items.pathImage} alt={items.alt} />
             <div>
               <h5 className="text-lg font-poppins font-bold text-slate-500 max-sm:text-sm">

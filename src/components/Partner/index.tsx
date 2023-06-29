@@ -5,7 +5,7 @@ import { supportData } from '../../static-data/support-data';
 import chevronLeftIcon from '../../assets/icons/chevron_left_icon.svg';
 import chevronRightIcon from '../../assets/icons/chevron_right_icon.svg';
 
-export const Support: React.FC = () => {
+export const Partner: React.FC = () => {
   const [count, setCount] = useState<number>(0);
 
   const handlePrev = (): void => {
@@ -17,15 +17,15 @@ export const Support: React.FC = () => {
   };
 
   return (
-    <section id="support">
-      <div className="mt-32 flex justify-between items-center max-xl:overflow-x-scroll max-xl:gap-x-10 max-sm:overflow-hidden max-sm:gap-x-0 relative">
+    <section id="partner">
+      <div className="mt-32 flex justify-between items-center max-xl:pb-4 max-xl:overflow-x-scroll max-xl:gap-x-10 max-sm:overflow-hidden max-sm:gap-x-0 change-scroll relative max-sm:mt-8">
         {supportData.map((items) => {
           let keyID: number = count + 1;
           return (
             <div
               key={items.id}
-              className={`flex justify-center items-center hover:shadow-lg hover:shadow-slate-300 hover:rounded-3xl p-3 max-xl:flex-none max-sm:w-full transition duration-500 ease-in-out max-sm:${
-                keyID == items.id ? 'block' : 'hidden'
+              className={`flex justify-center items-center hover:shadow-lg hover:shadow-slate-300 hover:rounded-3xl p-3 max-xl:flex-none transition duration-500 ease-in-out max-sm:${
+                keyID == items.id ? 'block mx-auto' : 'hidden'
               }`}
             >
               <img
