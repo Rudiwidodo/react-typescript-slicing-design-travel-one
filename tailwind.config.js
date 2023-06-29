@@ -11,6 +11,7 @@ export default {
         'color-1': '#DF6951',
         'color-2': '#181E4B',
         'color-3': '#F1A501',
+        'color-4': '#E1E6E9',
       },
       backgroundImage: {
         'decore-hero-text': 'url(./src/assets/images/decore-hero-text.svg)',

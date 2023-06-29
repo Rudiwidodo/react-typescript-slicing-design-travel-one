@@ -1,4 +1,5 @@
 // components
+import { Booking } from '../components/Booking';
 import { Category } from '../components/Category';
 import { Container } from '../components/Container';
 import { Destination } from '../components/Destination';
@@ -19,6 +20,7 @@ function App() {
           <Category />
           <Destination />
         </Container>
+        <Booking />
       </main>
     </>
   );
