@@ -3,8 +3,10 @@ import { Booking } from '../components/Booking';
 import { Category } from '../components/Category';
 import { Container } from '../components/Container';
 import { Destination } from '../components/Destination';
+import { Footer } from '../components/Footer';
 import { Hero } from '../components/Hero';
 import { Navbar } from '../components/Navbar';
+import { Subscribe } from '../components/Subscribe';
 import { Support } from '../components/Support';
 import { Testimonial } from '../components/Testimoni';
 
@@ -26,8 +28,12 @@ function App() {
         <Container>
           <Testimonial />
           <Support />
+          <Subscribe />
         </Container>
       </main>
+      <footer>
+        <Footer />
+      </footer>
     </>
   );
 }
